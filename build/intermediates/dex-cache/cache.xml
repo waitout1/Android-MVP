@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/seungkim/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/seungkim/Study/MVP/app/build/intermediates/pre-dexed/debug/gson-2.8.0_8523faa0aab9bab4f1daca289e33f5ff7c88fa9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/seungkim/.android/build-cache/820deb67f04015ca3f7b9344f3c65b1d2ed4671d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/seungkim/Study/MVP/app/build/intermediates/pre-dexed/debug/classes_d7a4da344bcb71b953602d831992984dff5995b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/seungkim/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/seungkim/Study/MVP/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_ef48e48fe77e178cec5502d5ee083422ddece892.jar" />
+    </item>
+
+</items>
