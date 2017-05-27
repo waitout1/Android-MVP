@@ -6,10 +6,10 @@ import android.content.Context;
  * Created by seungkim on 2017. 4. 25..
  */
 
-public class MainPresenterImpl implements MainPresenter, NumberModel.OnNumberChangeListener{
+public class MainPresenterImpl implements MainPresenter{
     private Context context;
     private MainPresenter.View view;
-    private NumberModel model;
+    private RandomNumberModel model;
 
     public MainPresenterImpl(Context context){
         this.context = context;
@@ -22,8 +22,7 @@ public class MainPresenterImpl implements MainPresenter, NumberModel.OnNumberCha
 
     @Override
     public void onCreate() {
-        model = new NumberModel();
-        model.setOnNumberChangeListener(this);
+        model = new RandomNumberModel();
     }
 
     @Override
@@ -38,15 +37,8 @@ public class MainPresenterImpl implements MainPresenter, NumberModel.OnNumberCha
     public void onDestroy() {
     }
 
-
-
-    @Override
-    public void onNumberChange(int number) {
-        view.setResultText("Result : " + number);
-    }
-
     @Override
     public void onClickChangeData() {
-        model.changeNumber();
+        view.setResultText("Result : " + model.getNumber());
     }
 }
